@@ -200,7 +200,7 @@ function App() {
           {/* Is loading? > did we get an error? > products is empty? */}
           <>
             {loading ? (
-              <div className="text-6xl p-10 text-center">Loading</div>
+              <div className="text-6xl p-10 text-center">Loading...</div>
             ) : error ? (
               <div className="text-6xl p-10 text-center">{error}</div>
             ) : products ? (
